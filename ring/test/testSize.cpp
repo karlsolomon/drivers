@@ -1,5 +1,5 @@
 #include "ring.h"
-int testSize(int argc, char** argv) {
+auto testSize(int argc, char** argv) -> int {
     Ring<int> r(10);
     return !(10 == r.size());
 }
