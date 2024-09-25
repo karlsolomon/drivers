@@ -1,6 +1,0 @@
-# ninja log v6
-1	38	1727297623516799528	CMakeFiles/runTests.dir/home/ksolomon/git/drivers/ring/test/test*.cpp.o	4ad6c32b45207b3f
-1	136	1727297623516799528	CMakeFiles/main.dir/main.cpp.o	3e9117a7eaad3fc3
-1	138	1727297623516799528	CMakeFiles/runTests.dir/test2.cpp.o	6965ba370a9cf379
-1	139	1727297623516799528	CMakeFiles/runTests.dir/test1.cpp.o	594882338d7f0ce7
-136	166	1727297623653466544	main	bd2022e46c42e293

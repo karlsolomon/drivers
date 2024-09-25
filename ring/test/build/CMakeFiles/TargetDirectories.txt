@@ -1,5 +1,0 @@
-/home/ksolomon/git/drivers/ring/test/build/CMakeFiles/main.dir
-/home/ksolomon/git/drivers/ring/test/build/CMakeFiles/runTests.dir
-/home/ksolomon/git/drivers/ring/test/build/CMakeFiles/test.dir
-/home/ksolomon/git/drivers/ring/test/build/CMakeFiles/edit_cache.dir
-/home/ksolomon/git/drivers/ring/test/build/CMakeFiles/rebuild_cache.dir
