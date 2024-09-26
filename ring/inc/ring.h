@@ -20,7 +20,7 @@ class Ring {
     auto size() -> int { return sz; }
     auto push(T v) -> RING_ERR_E {
         RING_ERR_E ret = ERR_OK;
-        if (n == this->sz) {
+        if (this->n == this->sz) {
             ret = ERR_FULL;
         } else {
             this->buf[this->tail] = v;
@@ -31,7 +31,7 @@ class Ring {
     }
     auto pop(T* v) -> RING_ERR_E {
         RING_ERR_E ret = ERR_OK;
-        if (n == 0) {
+        if (this->n == 0) {
             ret = ERR_EMPTY;
         } else {
             *v = this->buf[this->head];
@@ -40,5 +40,7 @@ class Ring {
         }
         return ret;
     }
+    auto isEmpty() -> bool { return this->n == 0; }
+    auto isFull() -> bool { return this->n == this->sz; }
 };
 #endif  // _RING_H_
